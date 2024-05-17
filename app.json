@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "tracking-product",
+    "slug": "tracking-product",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/priceFinder.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/priceFinder.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.abderrahmansaib.trackingproduct"
+    },
+    "scheme": "employee-yt",
+    "web": {
+      "favicon": "./assets/priceFinder.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
